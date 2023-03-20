@@ -1,4 +1,4 @@
-import { db } from "../db.js";
+import { db } from "../db.js"; //import the database connection file
 import jwt from "jsonwebtoken";
 
 //all posts

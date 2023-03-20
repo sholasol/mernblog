@@ -1,6 +1,7 @@
-import mysql from "mysql2";
+import mysql from "mysql2"; //using mysql2 package for database connection
 // import mysql from "mysql";
 
+//database connection settings
 export const db = mysql.createConnection({
   host: "localhost",
   user: "root",

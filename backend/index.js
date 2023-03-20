@@ -1,9 +1,10 @@
 import express from "express";
+//import app routes
 import authRoutes from "./routes/auth.js";
 import postRoutes from "./routes/posts.js";
 import userRoutes from "./routes/users.js";
 import cookieParser from "cookie-parser";
-import multer from "multer";
+import multer from "multer"; //image upload handling
 
 const app = express();
 
